@@ -1,0 +1,8 @@
+code=[]
+code=list(map(int,input().split(",")))
+value = 0
+
+for i in code :
+    value = value + i
+
+print(value)
